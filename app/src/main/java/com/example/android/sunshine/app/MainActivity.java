@@ -1,7 +1,6 @@
 package com.example.android.sunshine.app;
 
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,7 +8,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.os.Build;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -68,7 +66,7 @@ public class MainActivity extends ActionBarActivity {
 
             // Create some dummy data for the ListView.  Here's a sample weekly forecast
             String[] data = {
-                    "Mon 6/23 - Sunny - 31/17 ",
+                    "Mon 6/23 - Sunny2 - 31/17 ",
                     "Tue 6/24 - Foggy - 21/8",
                     "Wed 6/25 - Cloudy - 22/17",
                     "Thurs 6/26 - Rainy - 18/11",
